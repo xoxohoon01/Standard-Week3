@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,8 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public GameObject cameraContainer;
+
+    public Action inventory;
 
     private float moveSpeed = 10f;
     private float jumpForce = 5f;

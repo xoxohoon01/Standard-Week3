@@ -23,4 +23,13 @@ public class PlayerCondition : MonoBehaviour, IDamagable
         HP.Subtract(damageAmount);
         onTakeDamage?.Invoke();
     }
+
+    public void Heal(float value)
+    {
+
+    }
+    public void Eat(float value)
+    {
+
+    }
 }
